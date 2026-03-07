@@ -48,3 +48,4 @@ print("\n=== Students Sorted by Performance ===")
 print(sorted_df)
 
 print("\nClass Average:", class_avg)
+
