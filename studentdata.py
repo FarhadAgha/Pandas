@@ -6,7 +6,7 @@ print("=" * 50)
 print("STUDENT GRADES ANALYZER")
 print("=" * 50)
 
-df['final_grade'] = (df['score'] * 0.4) + (df['attendance'] * 0.3) + (df['homework'] * 0.3)
+df['final_grade'] = (df['score'] * 0.4) + (df['attendance'] * 0.3) + (df['homework'] * 0.3) 
 
 print("\n Complete Student Data:")
 print(df.to_string(index=False))
